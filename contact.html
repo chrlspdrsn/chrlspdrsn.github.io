@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Charles Pederson</title>
+  	<link rel="stylesheet" type="text/css" href=styleContact.css> <!-- connects the website to stylesheet style.css -->
+  	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- helps the website look good on all devices-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet"> <!--Connects to font-->
+    <style>
+    body {font-family: 'Muli', sans-serif;}
+  	</style>
+  </head>
+  <body>
+    <!--This is header/navbar section-->
+    <div class ="main">
+      <div class="textMain">
+        <strong>CHARLES PEDERSON</strong>
+      </div>
+      <div class="textSecondary">
+        <p> CONTACT ME </p>
+      </div>
+      <div class="topnav">
+        <a href="home.html">HOME</a>
+        <a href="resume.html">RESUME</a>
+        <a href="projects.html">PROJECTS</a>
+        <a href="contact.html">CONTACT</a>
+      </div>
+    </div>
+    
+    <!--This is the content on the page-->
+    <div class ="container">
+      <div class="row">
+        <div class="column left">
+          <!--LinkedIn/Social Links and Headshot-->
+          <img src="ContactMe.jpg" alt="Contact Me!" class="center">
+          <a href="http://www.LinkedIn.com/in/charpede" target = "_blank" class="fa fa-linkedin"></a>
+        </div>
+        <div class="column right">
+          <!--The contact form-->
+
+            <form action="action_page.php">
+
+              <label for="fName">FIRST NAME</label>
+              <input type="text" id="fName" name="firstname" placeholder="Enter first...">
+
+              <label for="lName">LAST NAME</label>
+              <input type="text" id="lName" name="lastname" placeholder="Enter last...">
+
+              <label for="subject">SUBJECT</label>
+              <input type="text" id="subject" name="subject" placeholder="Subject...">
+
+              <label for="message">MESSAGE</label>
+              <textarea id="message" name="message" placeholder="Write something..." style="height:150px"></textarea>
+
+              <input type="submit" value="Submit">
+
+            </form>
+        </div>
+      </div>
+    </div>
+    <footer><p><i> This website built and designed by Charles Pederson using html and CSS. </i></p></footer>
+  </body>
+</html>

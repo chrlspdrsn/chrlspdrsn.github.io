@@ -1,0 +1,104 @@
+.container {
+  margin: 0 auto;
+  background: #f9f9f9;
+  font-size: 24px;
+  padding: 25px;
+  color: grey;
+}
+
+.main {
+  background: url("main.jpeg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+  color: #696969
+}
+/*Charles Pederson*/
+.textMain{
+  position: absolute;
+  top: 128px;
+  left: 64px;
+  font-size: 60px;
+}
+/*Extra thing*/
+.textSecondary{
+  position: absolute;
+  top: 170px;
+  left: 70px;
+  font-size: 30px;
+}
+
+/* The navbar */
+.topnav {
+  background-color: #7DBAF9;
+  display: inline-block;
+  font-size: 16px;
+  position: static;
+  width: 100%;
+  opacity: 50%;
+  padding-left: 16px;
+}
+/* Navbar links */
+.topnav a {
+  padding: 16px;
+  float: left;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  text-align: center;
+  left: 50%
+}
+/*Navbar on hover*/
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/*Navbar when clicked*/
+.topnav a:active {
+  color: #f9f9f9;
+}
+
+.header {
+  padding: 200px;
+  text-align: center;
+  background: #f9f9f9;
+  color: grey;
+  font-size: 30px;
+}
+
+.col {
+  color: grey;
+}
+/*for creating columns*/
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+.left {
+  width: 70%;
+}
+.right {
+  width: 30%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,112 @@
+/*Container formating*/
+.container {
+  margin: 0 auto;
+  background: #f9f9f9;
+  font-size: 24px;
+  padding: 25px;
+  color: grey;
+}
+.imgContainer {
+  margin: 0 auto;
+  background-color: #7DBAF9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*main header*/
+.main {
+  background: url("main.jpeg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 750px;
+  color: #696969;
+}
+/*Charles Pederson*/
+.textMain{
+  position: absolute;
+  top: 245px;
+  left: 64px;
+  font-size: 60px;
+}
+/*Creative. Driven. Passionate.*/
+.textSecondary{
+  position: absolute;
+  top: 287px;
+  left: 70px;
+  font-size: 30px;
+}
+
+/* The navbar */
+.topnav {
+  background-color: #7DBAF9;
+  display: inline-block;
+  font-size: 16px;
+  position: static;
+  width: 100%;
+  opacity: 50%;
+  padding-left: 16px;
+}
+/* Navbar links */
+.topnav a {
+  padding: 16px;
+  float: left;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  text-align: center;
+  left: 50%
+}
+/*Navbar on hover*/
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/*Navbar when clicked*/
+.topnav a:active {
+  color: darkgrey;
+}
+
+/*The pictures on scroll*/
+.pic1 {
+  background: url("DMAClass.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+}
+
+.pic2 {
+  background: url("Yosemite.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+}
+
+.header {
+  padding: 50px;
+  text-align: center;
+  background: #f9f9f9;
+  color: grey;
+  font-size: 30px;
+}
+
+.col {
+  color: grey;
+  text-align: center;
+}
+
+/*for creating columns*/
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+.left {
+  width: 25%;
+}
+.right {
+  width: 75%;
+}
