@@ -109,6 +109,12 @@
 .right2 {
   width: 60%;
 }
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="column"] {
+    width: 100%;
+  }
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";
