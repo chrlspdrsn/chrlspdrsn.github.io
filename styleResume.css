@@ -16,14 +16,14 @@
 /*Charles Pederson*/
 .textMain{
   position: absolute;
-  top: 128px;
+  top: 150px;
   left: 64px;
   font-size: 60px;
 }
 /*Extra thing*/
 .textSecondary{
   position: absolute;
-  top: 170px;
+  top: 190px;
   left: 70px;
   font-size: 30px;
 }
