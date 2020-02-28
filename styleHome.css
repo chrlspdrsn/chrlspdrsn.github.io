@@ -72,23 +72,23 @@
   background: url("main.jpeg") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
-  height:100%;
-  width auto;
+  height: auto;
+  max-width: 100%;
 }
 .pic1 {
   background: url("DMAClass.jpg") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
-  height: 100%;
-  width: auto;
+  height: auto;
+  max-width: 100%;
 }
 
 .pic2 {
   background: url("Mexico.jpg") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
-  height: 100%;
-  width: auto;
+  height: auto;
+  max-width: 100%;
 }
 
 .header {
