@@ -1,3 +1,4 @@
+/*Container formating*/
 .container {
   margin: 0 auto;
   background: #f9f9f9;
@@ -29,7 +30,7 @@
 
 /* The navbar */
 .topnav {
-  background-color: #6495ED;
+  background-color: #7DBAF9;
   display: inline-block;
   font-size: 16px;
   position: static;
