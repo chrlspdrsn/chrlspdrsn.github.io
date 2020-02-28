@@ -11,11 +11,12 @@
   background-color: #7DBAF9;
   padding-top: 10px;
   padding-bottom: 10px;
+  height: 600px;
 }
 
 /*main header*/
 .main {
-  background: url("main.jpeg") no-repeat center;
+  /*background: url("main.jpeg") no-repeat center;*/
   background-size: cover;
   background-attachment: fixed;
   height: 750px;
@@ -67,18 +68,27 @@
 }
 
 /*The pictures on scroll*/
+.picmain {
+  background: url("main.jpeg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height:100%;
+  width auto;
+}
 .pic1 {
   background: url("DMAClass.jpg") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
-  height: 600px;
+  height: 100%;
+  width: auto;
 }
 
 .pic2 {
   background: url("Mexico.jpg") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
-  height: 600px;
+  height: 100%;
+  width: auto;
 }
 
 .header {
